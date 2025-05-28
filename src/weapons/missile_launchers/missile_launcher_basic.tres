@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="MissileLauncher" load_steps=2 format=3 uid="uid://dme41enwmk8ik"]
 
-[ext_resource type="Script" path="res://src/weapons/missile_launcher.gd" id="1_alrq3"]
+[ext_resource type="Script" uid="uid://buwcckjady0r2" path="res://src/weapons/missile_launcher.gd" id="1_alrq3"]
 
 [resource]
 script = ExtResource("1_alrq3")

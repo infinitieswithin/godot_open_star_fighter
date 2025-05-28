@@ -3,15 +3,16 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://demvwfox7o8my"
-path="res://.godot/imported/star_field_2.hdr-168e0c770557db474d1e3f3cc16e6a26.ctex"
+path.bptc="res://.godot/imported/star_field_2.hdr-168e0c770557db474d1e3f3cc16e6a26.bptc.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://src/environment/star_field_2.hdr"
-dest_files=["res://.godot/imported/star_field_2.hdr-168e0c770557db474d1e3f3cc16e6a26.ctex"]
+dest_files=["res://.godot/imported/star_field_2.hdr-168e0c770557db474d1e3f3cc16e6a26.bptc.ctex"]
 
 [params]
 

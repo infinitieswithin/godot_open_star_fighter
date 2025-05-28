@@ -1,6 +1,6 @@
 [gd_scene load_steps=15 format=3 uid="uid://el0s2raq1cdn"]
 
-[ext_resource type="Script" path="res://src/hoop_path/hoop/hoop.gd" id="1_5ilav"]
+[ext_resource type="Script" uid="uid://b2fj42l8pqs0h" path="res://src/hoop_path/hoop/hoop.gd" id="1_5ilav"]
 [ext_resource type="Material" uid="uid://cn12ek6557k74" path="res://src/hoop_path/hoop/hoop.material" id="2_e12x3"]
 [ext_resource type="AudioStream" uid="uid://dp1j60jce2wep" path="res://src/hoop_path/hoop/hoop_collected.wav" id="3_lybqo"]
 
@@ -74,8 +74,8 @@ tracks/2/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_mjyge"]
 _data = {
-"RESET": SubResource("Animation_vcw0a"),
-"passed": SubResource("Animation_0en5s")
+&"RESET": SubResource("Animation_vcw0a"),
+&"passed": SubResource("Animation_0en5s")
 }
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jknqf"]
@@ -97,9 +97,9 @@ curve = SubResource("Curve_jvkys")
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_2ubai"]
 spread = 180.0
 flatness = 1.0
-gravity = Vector3(0, 0, 0)
 initial_velocity_min = 20.0
 initial_velocity_max = 20.0
+gravity = Vector3(0, 0, 0)
 scale_curve = SubResource("CurveTexture_o014l")
 color = Color(0.682353, 0.47451, 0.780392, 1)
 hue_variation_min = -1.0

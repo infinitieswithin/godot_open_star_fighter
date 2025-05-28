@@ -1,9 +1,9 @@
 [gd_scene load_steps=11 format=3 uid="uid://b4aks7fmbunpu"]
 
-[ext_resource type="Script" path="res://src/menu_ui/mulit_page_ui/manager.gd" id="1_vdjtv"]
+[ext_resource type="Script" uid="uid://cnue6i2jc2t5f" path="res://src/menu_ui/mulit_page_ui/manager.gd" id="1_vdjtv"]
 [ext_resource type="PackedScene" uid="uid://dljbgec784dja" path="res://src/menu_ui/main_menu/home/home.tscn" id="2_br8si"]
 [ext_resource type="Texture2D" uid="uid://brscgvbyifk8k" path="res://src/environment/star_field_3.hdr" id="4_4fi5y"]
-[ext_resource type="Script" path="res://src/menu_ui/main_menu/3d_background.gd" id="4_wnide"]
+[ext_resource type="Script" uid="uid://bkwoe7hyk5cvb" path="res://src/menu_ui/main_menu/3d_background.gd" id="4_wnide"]
 [ext_resource type="PackedScene" uid="uid://byhlesvjxe52n" path="res://src/asteroids/asteroid_big_1.tscn" id="6_wj85h"]
 [ext_resource type="PackedScene" uid="uid://deltucmobo5dt" path="res://src/menu_ui/controls_page/controls_page.tscn" id="12"]
 

@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://crm6jwxqy6ahr"]
 
-[ext_resource type="Script" path="res://src/ship_controllers/computer/collision_avoidance/collision_avoidance_system.gd" id="1_2gef4"]
+[ext_resource type="Script" uid="uid://77muykg6u4ix" path="res://src/ship_controllers/computer/collision_avoidance/collision_avoidance_system.gd" id="1_2gef4"]
 
 [node name="CollisionAvoidanceSystem" type="Node3D"]
 script = ExtResource("1_2gef4")

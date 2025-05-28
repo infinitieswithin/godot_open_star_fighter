@@ -1,6 +1,7 @@
-[gd_resource type="Resource" script_class="Blaster" load_steps=2 format=3 uid="uid://ttxd557f2oyj"]
+[gd_resource type="Resource" script_class="Blaster" load_steps=3 format=3 uid="uid://ttxd557f2oyj"]
 
-[ext_resource type="Script" path="res://src/weapons/blaster.gd" id="1_0ph0k"]
+[ext_resource type="Script" uid="uid://ckfsw1imhejw7" path="res://src/weapons/blaster.gd" id="1_0ph0k"]
+[ext_resource type="AudioStream" uid="uid://dmxwr57i6udwo" path="res://src/weapons/blaster_fire_ph.ogg" id="2_2y3d6"]
 
 [resource]
 script = ExtResource("1_0ph0k")
@@ -8,3 +9,4 @@ projectile_damage = 10.0
 projectile_speed = 120.0
 rpm = 360
 max_range = 1000
+shoot_audio = ExtResource("2_2y3d6")

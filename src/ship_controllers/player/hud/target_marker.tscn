@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://bdn8bexlsufig"]
 
-[ext_resource type="Script" path="res://src/ship_controllers/player/hud/target_marker.gd" id="1_vi4ix"]
+[ext_resource type="Script" uid="uid://dhvgcougolcxh" path="res://src/ship_controllers/player/hud/target_marker.gd" id="1_vi4ix"]
 [ext_resource type="Texture2D" uid="uid://b5slyy4f8dmmp" path="res://src/ship_controllers/player/hud/marker_tracker.png" id="2_4rwfy"]
 [ext_resource type="FontFile" uid="uid://d2fgugats8up0" path="res://fonts/Orbitron-Regular.ttf" id="3_feuj6"]
 

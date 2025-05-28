@@ -1,6 +1,6 @@
 [gd_scene load_steps=11 format=3 uid="uid://drhrgk6mo4yyq"]
 
-[ext_resource type="Script" path="res://src/levels/modes/level_tdm.gd" id="1_ervta"]
+[ext_resource type="Script" uid="uid://cct4pscwt3yaj" path="res://src/levels/modes/level_tdm.gd" id="1_ervta"]
 [ext_resource type="PackedScene" uid="uid://df4xgtov8ytnu" path="res://src/game_camera_rig/game_camera_rig.tscn" id="2_gnrgo"]
 [ext_resource type="PackedScene" uid="uid://dw1yjh18pjgoq" path="res://src/menu_ui/pause_menu/pause_menu.tscn" id="3_rqx71"]
 [ext_resource type="Material" uid="uid://cv0w14ovdcc0r" path="res://src/menu_ui/pause_menu/background_blur.material" id="4_orbr3"]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://djqustmc1kkh4"]
 
-[ext_resource type="Script" path="res://src/autoloads/scene_switcher/scene_switcher.gd" id="1_il1ju"]
+[ext_resource type="Script" uid="uid://bn6oiyqa44phj" path="res://src/autoloads/scene_switcher/scene_switcher.gd" id="1_il1ju"]
 [ext_resource type="Texture2D" uid="uid://c3qeax11pua4v" path="res://icon.svg" id="2_py1p1"]
 
 [sub_resource type="Animation" id="Animation_rn4ni"]
@@ -35,8 +35,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_p8fux"]
 _data = {
-"RESET": SubResource("Animation_rn4ni"),
-"fade_in": SubResource("Animation_65rlk")
+&"RESET": SubResource("Animation_rn4ni"),
+&"fade_in": SubResource("Animation_65rlk")
 }
 
 [node name="SceneSwitcher" type="Node"]

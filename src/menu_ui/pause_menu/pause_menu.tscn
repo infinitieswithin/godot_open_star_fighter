@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://dw1yjh18pjgoq"]
 
-[ext_resource type="Script" path="res://src/menu_ui/pause_menu/pause_menu.gd" id="1_68n7r"]
+[ext_resource type="Script" uid="uid://dhclhi6ltser1" path="res://src/menu_ui/pause_menu/pause_menu.gd" id="1_68n7r"]
 [ext_resource type="PackedScene" uid="uid://dusgc3uarpow2" path="res://src/menu_ui/pause_menu/home/Home.tscn" id="2_uij8x"]
 [ext_resource type="Material" uid="uid://cv0w14ovdcc0r" path="res://src/menu_ui/pause_menu/background_blur.material" id="3_gphkd"]
 [ext_resource type="PackedScene" uid="uid://deltucmobo5dt" path="res://src/menu_ui/controls_page/controls_page.tscn" id="4_6c0sk"]
@@ -38,8 +38,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_bieey"]
 _data = {
-"RESET": SubResource("1"),
-"popup": SubResource("2")
+&"RESET": SubResource("1"),
+&"popup": SubResource("2")
 }
 
 [node name="PauseMenu" type="Control"]

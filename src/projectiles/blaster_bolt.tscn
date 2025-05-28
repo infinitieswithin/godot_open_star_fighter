@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bx6gmdhbkukj6"]
 
-[ext_resource type="Script" path="res://src/projectiles/blaster_bolt.gd" id="1_vh84j"]
+[ext_resource type="Script" uid="uid://bm8yx2hyo2fes" path="res://src/projectiles/blaster_bolt.gd" id="1_vh84j"]
 
 [sub_resource type="CylinderMesh" id="CylinderMesh_lqlm1"]
 top_radius = 0.1

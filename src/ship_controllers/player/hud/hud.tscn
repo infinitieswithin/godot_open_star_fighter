@@ -1,7 +1,7 @@
 [gd_scene load_steps=12 format=3 uid="uid://cabvahs8ot1h5"]
 
 [ext_resource type="PackedScene" uid="uid://bdn8bexlsufig" path="res://src/ship_controllers/player/hud/target_marker.tscn" id="1_djnns"]
-[ext_resource type="Script" path="res://src/ship_controllers/player/hud/hud.gd" id="1_kyuli"]
+[ext_resource type="Script" uid="uid://c8h02wj4biykw" path="res://src/ship_controllers/player/hud/hud.gd" id="1_kyuli"]
 [ext_resource type="Texture2D" uid="uid://bchscmmvfvoqb" path="res://src/ship_controllers/player/hud/marker_intercept.png" id="3_0as7u"]
 [ext_resource type="Texture2D" uid="uid://whtjclmn6fja" path="res://src/ship_controllers/player/hud/off_screen_marker.png" id="4_suv0y"]
 [ext_resource type="Texture2D" uid="uid://5cv6dot4hnn" path="res://src/ship_controllers/player/hud/marker_lock.png" id="5_5meka"]

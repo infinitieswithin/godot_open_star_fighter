@@ -1,6 +1,6 @@
 [gd_scene load_steps=12 format=3 uid="uid://0polrufyuldq"]
 
-[ext_resource type="Script" path="res://src/projectiles/missile.gd" id="1_sevo8"]
+[ext_resource type="Script" uid="uid://bbw1amtrfe7ka" path="res://src/projectiles/missile.gd" id="1_sevo8"]
 [ext_resource type="Texture2D" uid="uid://chkit0ahv4psm" path="res://particle_textures/scorch_03.png" id="2_kb4js"]
 [ext_resource type="AudioStream" uid="uid://cunbdbmqlfjs8" path="res://src/projectiles/missile_jet.ogg" id="3_p5tvs"]
 
@@ -36,9 +36,9 @@ point_count = 4
 curve = SubResource("Curve_t7n00")
 
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_xnvdj"]
-gravity = Vector3(0, 0, 0)
-angular_velocity_max = 163.3
 angle_max = 180.0
+angular_velocity_max = 163.3
+gravity = Vector3(0, 0, 0)
 scale_curve = SubResource("CurveTexture_so0aj")
 
 [sub_resource type="QuadMesh" id="QuadMesh_hq5pt"]
